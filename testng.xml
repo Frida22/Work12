@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="TestClass1 run">
+        <classes>
+            <class name="HomeWork12.TestClass1">
+            </class>
+        </classes>
+    </test>
+
+    <test name="test groups run">
+        <groups>
+            <run>
+                <include name="addition"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="HomeWork12.TestClass2">
+            </class>
+        </classes>
+    </test>
+
+</suite>
