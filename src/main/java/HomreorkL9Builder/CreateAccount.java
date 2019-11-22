@@ -1,6 +1,9 @@
 package HomreorkL9Builder;
 
 public class CreateAccount {
+    public static void main(String[] args) {
+        CreateAccount createAccount = new CreateAccount.Builder().enterAddress("Ukraine").enterCity("Kyiv").enterFirstName("Anna").enterPassword(257569).build();
+    }
     private String firstName;
     private String lastName;
     private String email;
@@ -9,6 +12,8 @@ public class CreateAccount {
     private String city;
     private int postalCode;
     private String mobilePhone;
+
+
 
     public static class Builder {
         private CreateAccount createAccount;
