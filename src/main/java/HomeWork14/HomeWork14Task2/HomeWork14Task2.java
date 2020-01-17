@@ -8,12 +8,6 @@ public class HomeWork14Task2 {
         homeWork14Task2.copyFiles("C:\\Users\\Njuta\\Desktop\\New folder\\New Text Document (2).txt");
     }
 
-    public HomeWork14Task2(File whereToCopy) {
-    }
-
-    public HomeWork14Task2(){
-    }
-
     private File whereToCopy = new File("C:\\Users\\Njuta\\Desktop\\New folder\\forSaveCopy.txt");
 
     public void copyFiles(String pathFromWhere) throws IOException {
